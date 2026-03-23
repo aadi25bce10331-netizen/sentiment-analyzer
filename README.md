@@ -3,7 +3,7 @@
 > **CSA2001 – Fundamentals of AI and ML | BYOP Project**  
 > Aadi Jain · 25BCE10331 · B.Tech CSE, First Year · VIT Bhopal University
 
----
+
 
 ## The Problem
 
@@ -11,7 +11,7 @@ Every day, millions of movie reviews, product ratings, and social media posts ar
 
 This project builds a complete NLP + Neural Network pipeline to classify movie reviews as **POSITIVE** or **NEGATIVE** with over **91% accuracy**.
 
----
+
 
 ## What This Project Does
 
@@ -30,7 +30,7 @@ A full text classification pipeline:
 4. **Full Evaluation** — Accuracy, AUC-ROC, 5-fold CV, confusion matrix, classification report
 5. **Live Prediction Demo** — Predict sentiment of any new review string
 
----
+
 
 ## AI/ML Concepts Applied
 
@@ -41,7 +41,7 @@ A full text classification pipeline:
 - **Cross-Validation:** 5-fold Stratified CV to detect overfitting
 - **Feature Engineering:** TF-IDF with bigrams (captures phrases like "not good", "very bad")
 
----
+
 
 ## Results
 
@@ -53,7 +53,7 @@ A full text classification pipeline:
 
 All three models achieve ~91.5% accuracy. The MLP Neural Network matches the baselines, demonstrating that the NLP preprocessing stage (not just model complexity) is the key driver of performance in text classification tasks.
 
----
+
 
 ## Project Structure
 
@@ -73,7 +73,7 @@ sentiment-analyzer/
 └── README.md                ← This file
 ```
 
----
+
 
 ## How to Run
 
@@ -104,13 +104,13 @@ The script will:
 ### 4. Predict your own review
 At the bottom of `sentiment_analyzer.py`, add your review to the `demo_reviews` list and re-run.
 
----
+
 
 ## No Internet or Extra Downloads Required
 
 The NLP preprocessing is implemented from scratch (no NLTK download needed). The dataset is auto-generated if `reviews.csv` is not present. The project runs fully offline.
 
----
+
 
 ## Requirements
 
@@ -123,7 +123,7 @@ seaborn
 ```
 Python 3.8 or higher.
 
----
+
 
 ## Author
 
@@ -133,6 +133,6 @@ B.Tech Computer Science and Engineering, First Year
 VIT Bhopal University  
 Course: CSA2001 – Fundamentals of AI and ML
 
----
 
-*Submitted via VITyarthi Portal | Deadline: March 31, 2026*
+
+
