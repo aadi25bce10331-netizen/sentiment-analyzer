@@ -79,7 +79,7 @@ sentiment-analyzer/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentiment-analyzer.git
+git clone https://github.com/aadi25bce10331-netizen/sentiment-analyzer.git
 cd sentiment-analyzer
 ```
 
