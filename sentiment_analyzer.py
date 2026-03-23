@@ -1,32 +1,3 @@
-"""
-Movie Review Sentiment Analyzer
-=================================
-CSA2001 – Fundamentals of AI and ML | BYOP Project
-Author  : Aadi Jain
-Reg No  : 25BCE10331
-Branch  : CSE, First Year | VIT Bhopal University
-Date    : March 2026
-
-Problem Statement
------------------
-Given a movie review written in natural language, predict whether
-the sentiment expressed is POSITIVE or NEGATIVE.
-
-This is a binary text classification problem that applies:
-  • NLP Pipeline  — text cleaning, tokenisation, stopword removal, TF-IDF
-  • Neural Network — Multi-Layer Perceptron (MLP) classifier
-  • Baselines      — Naïve Bayes and Logistic Regression for comparison
-
-Dataset
--------
-Synthetic dataset of 2000 labelled movie reviews (1000 pos + 1000 neg)
-generated to mirror the statistical properties of the UCI Sentiment
-Labelled Sentences dataset and the IMDb review corpus.
-
-To use the real IMDb dataset, place a CSV with columns [review, sentiment]
-in the project folder and set REAL_DATA_PATH below.
-"""
-
 import re
 import os
 import warnings
